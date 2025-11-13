@@ -1,0 +1,14 @@
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\bin\Debug\net8.0\OddEvenApp.exe
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\bin\Debug\net8.0\OddEvenApp.deps.json
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\bin\Debug\net8.0\OddEvenApp.runtimeconfig.json
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\bin\Debug\net8.0\OddEvenApp.dll
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\bin\Debug\net8.0\OddEvenApp.pdb
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.AssemblyInfoInputs.cache
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.AssemblyInfo.cs
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.csproj.CoreCompileInputs.cache
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.dll
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\refint\OddEvenApp.dll
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.pdb
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.genruntimeconfig.cache
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\ref\OddEvenApp.dll
