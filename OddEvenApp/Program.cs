@@ -23,11 +23,11 @@ class Program
             {
                 Console.WriteLine("Input pilihan tidak valid!!!");
             }
-            switch (input)
+            try
             {
-                case "1":
-                    try
-                    {
+                switch (input)
+                {
+                    case "1":
                         Console.Write("Masukkan Bilangan yang ingin di cek : ");
                         string number  = Console.ReadLine();
                         int convertedInput = Convert.ToInt32(number);
@@ -38,17 +38,9 @@ class Program
                         }
                         string numbersCheck = CheckEvenOrOdd(convertedInput);
                         Console.WriteLine(numbersCheck);
-                    }
-                    catch
-                    {
-                        Console.WriteLine("Input tidak valid!!!");
-                    }
-                    Console.WriteLine("===================================");
-                    break;
-                case "2":
-
-                    try
-                    {
+                        Console.WriteLine("===================================");
+                        break;
+                    case "2":
                         Console.Write("Pilih (Ganjil/Genap) : ");
                         string choice  = Console.ReadLine().ToLower();
                         Console.Write("Masukkan Limit : ");
@@ -64,16 +56,20 @@ class Program
                             Console.WriteLine("Input limit tidak valid!!!");
                             break;
                         }
+                        if(convertedLimit <= 1 && choice == "genap")
+                        {  
+                            Console.WriteLine("Input tidak valid!!!");
+                        }
                         Console.WriteLine("Print bilangan 1 - " + convertedLimit);
                         PrintEvenOdd(convertedLimit, choice);
-                    }
-                    catch 
-                    {
-                        Console.WriteLine("Input tidak valid!!!");
-                    }
-                    Console.WriteLine("");
-                    Console.WriteLine("===================================");
-                    break;
+                        Console.WriteLine("");
+                        Console.WriteLine("===================================");
+                        break;
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Input tidak valid!!!");
             }
         }while(input != "3");
     }
@@ -88,32 +84,47 @@ class Program
      */
     static void PrintEvenOdd(int limit, string choice)
     {
+        // if(choice == "genap")
+        // {
+        //     if(limit <= 1)
+        //     {  
+        //         Console.WriteLine("Input tidak valid!!!");
+        //     }
+        //     for(int i = 1; i <= limit; i++)
+        //     {   
+        //         if(i % 2 == 0) 
+        //         {
+        //             if(i == limit || i == limit-1) Console.Write(i);
+        //             else Console.Write(i + ", ");
+        //         }
+        //     }    
+        // }
+        // else
+        // {
+        //      for(int i = 1; i <= limit; i++)
+        //     {
+        //         if(i % 2 != 0) 
+        //         {
+        //             if(i == limit || i == limit-1) Console.Write(i);
+        //             else Console.Write(i + ", ");
+        //         }
+        //     }   
+        // }
+
+        var modularResult = 1;
         if(choice == "genap")
         {
-            if(limit <= 1)
-            {  
-                Console.WriteLine("Input tidak valid!!!");
-            }
-            for(int i = 1; i <= limit; i++)
-            {   
-                if(i % 2 == 0) 
-                {
-                    if(i == limit || i == limit-1) Console.Write(i);
-                    else Console.Write(i + ", ");
-                }
-            }    
+            modularResult = 0;
         }
-        else
-        {
-             for(int i = 1; i <= limit; i++)
+
+        for(int i = 1; i <= limit; i++)
+        {   
+            if(i % 2 == modularResult) 
             {
-                if(i % 2 != 0) 
-                {
-                    if(i == limit || i == limit-1) Console.Write(i);
-                    else Console.Write(i + ", ");
-                }
-            }   
-        }
+                if(i == limit || i == limit-1) Console.Write(i);
+                else Console.Write(i + ", ");
+            }
+        }    
     }
 
     /*
