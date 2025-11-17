@@ -12,3 +12,4 @@ C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\refint\OddEvenApp.dll
 C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.pdb
 C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.genruntimeconfig.cache
 C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\ref\OddEvenApp.dll
+C:\MII\.NET\NET\OddEvenApp\OddEvenApp\obj\Debug\net8.0\OddEvenApp.sourcelink.json
