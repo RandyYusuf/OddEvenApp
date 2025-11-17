@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MII\\.NET\\NET\\OddEvenApp\\OddEvenApp\\OddEvenApp.csproj": {}
+    "c:\\MII\\.NET\\NET\\NET\\OddEvenApp\\OddEvenApp\\OddEvenApp.csproj": {}
   },
   "projects": {
-    "C:\\MII\\.NET\\NET\\OddEvenApp\\OddEvenApp\\OddEvenApp.csproj": {
+    "c:\\MII\\.NET\\NET\\NET\\OddEvenApp\\OddEvenApp\\OddEvenApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MII\\.NET\\NET\\OddEvenApp\\OddEvenApp\\OddEvenApp.csproj",
+        "projectUniqueName": "c:\\MII\\.NET\\NET\\NET\\OddEvenApp\\OddEvenApp\\OddEvenApp.csproj",
         "projectName": "OddEvenApp",
-        "projectPath": "C:\\MII\\.NET\\NET\\OddEvenApp\\OddEvenApp\\OddEvenApp.csproj",
+        "projectPath": "c:\\MII\\.NET\\NET\\NET\\OddEvenApp\\OddEvenApp\\OddEvenApp.csproj",
         "packagesPath": "C:\\Users\\Randy\\.nuget\\packages\\",
-        "outputPath": "C:\\MII\\.NET\\NET\\OddEvenApp\\OddEvenApp\\obj\\",
+        "outputPath": "c:\\MII\\.NET\\NET\\NET\\OddEvenApp\\OddEvenApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
